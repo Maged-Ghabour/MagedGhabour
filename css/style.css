@@ -40,6 +40,7 @@ body{
     background:#111;
     overflow-x: hidden;
     padding-left: 35rem;
+    cursor: url(../img/cursor.png), default;
 }
 
 section{
@@ -55,6 +56,7 @@ section{
     margin-top: 1rem;
     font-size: 2rem;
     border-radius: 5rem;
+    
 }
 
 .btn i{
@@ -64,6 +66,7 @@ section{
 
 .btn:hover{
     background:var(--yellow);
+    cursor: url(../img/select.png), default;
 }
 
 .heading{
@@ -130,10 +133,12 @@ header .navbar ul li a{
     color:#fff;
     font-size: 2rem;
     border-radius: 5rem;
+    cursor: url(../img/select.png), default;
 }
 
 header .navbar ul li a:hover{
     background:var(--yellow);
+    cursor: url(../img/select.png), default;
 }
 
 #menu{
@@ -153,6 +158,7 @@ header .navbar ul li a:hover{
     justify-content: center;
     flex-flow: column;
     padding:0 15rem;
+   
 }
 
 .home h3{
@@ -173,6 +179,9 @@ header .navbar ul li a:hover{
     font-size:2rem;
     color:#eee;
     padding: 1rem 0;
+}
+.home a {
+cursor: url(../img/select.png), default;
 }
 
 .about .row{
@@ -322,6 +331,7 @@ header .navbar ul li a:hover{
     margin:2rem;
     margin-bottom: 4rem;
 }
+
 
 .contact .row form .box{
     padding:1.5rem;
